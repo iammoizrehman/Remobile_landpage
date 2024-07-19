@@ -8,19 +8,21 @@
     <title>Best Used Phone in Lahore - Grab the deal now</title>
 </head>
 <body class="scroll-smooth">
-    <nav class="bg-purple-900 text-white flex justify-between">
+    <nav class="bg-purple-900 text-white flex justify-between max-lg:flex-col">
         <span class="text-xl flex items-center mx-3 font-bold cursor-pointer"><span class="text-red-700">Re</span>Mobiles.com</span>
-        <ul class="px-28 py-4 flex space-x-11 justify-end">
-            <li class="cursor-pointer"><a href="#home">Home</a></li>
-            <li class="cursor-pointer"><a href="#About">About Us</a></li>
-            <li class="cursor-pointer"><a href="#Products">Products</a></li>
-            <li class="cursor-pointer"><a href="#contact">Contact Us</a></li>
+        <ul class="px-28 py-4 flex space-x-11 justify-end max-lg:flex-col max-lg:leading-9 max-lg:justify-center max-lg:align-middle">
+            <li></li>
+            <li class="cursor-pointer hover:text-red-700"><a href="#home">Home</a></li>
+            <li class="cursor-pointer hover:text-red-700"><a href="#About">About Us</a></li>
+            <li class="cursor-pointer hover:text-red-700"><a href="#Products">Products</a></li>
+            <li class="cursor-pointer hover:text-red-700"><a href="#contact">Contact Us</a></li>
         </ul>
     </nav>
     <main>
-        <section id="home" class="flex bg-fuchsia-100">
-        <div class="main py-40 pl-9">
-            <div class="text-6xl text-purple-950 font-bold">
+        <section id="home" class="flex bg-fuchsia-100 w-screen max-lg:text-sm">
+        <div class="flex">
+            <div class="main py-40 pl-9">
+            <div class="text-6xl text-purple-950 font-bold max-lg:font-semibold max-lg:text-5xl">
                 The best <span class="text-red-700">phones</span> in the town
             </div>
             <p class="py-3 w-1/2">Sustainable smartphones for a better tomorrow: affordable, reliable, and eco-friendly mobile solutions for a more connected world.</p>
@@ -30,8 +32,9 @@
             </div>
         </div>
         <div class="flex items-center">
-            <img src="./images/Phone.png" alt="" class="w-80 pr-8">
+            <img src="./images/Phone.png" alt="" class="w-80 pr-8 max-lg:h-36 max-lg:">
         </div>
+    </div>
     </section>
     <section id="About" class="bg-white h-auto">
     <div class="abt-container flex justify-center py-20 flex-col align-middle text-center">
@@ -46,7 +49,7 @@
             <h1 class="text-center font-bold text-3xl pt-4 text-purple-900">OUR PRODUCTS</h1>
 
             <!-- tiles Flex -->
-            <div class="flex flex-row justify-center">
+            <div class="flex flex-row justify-center max-lg:flex-wrap">
                     
      <!-- Product 1 -->
           <div class="pro-1 mx-2 bg-fuchsia-200 my-10 ml-10 h-auto max-w-72 flex flex-col justify-center  hover:bg-blue-600 hover:text-white">
@@ -92,10 +95,10 @@
   </section>
 
 </main>
-<footer>
-    <section id="contact" class="bg-purple-800 h-20 text-white flex" >
-        <div class="logos flex align-middle pt-10">
-        <div class="log pl-48 flex ">
+<footer class="w-100px">
+    <section id="contact" class="bg-purple-800 h-auto text-white flex">
+        <div class="logos flex align-middle pt-10 ">
+        <div class="log pl-48 flex max-lg:mx-auto">
         <div class="linkedin h-5 w-5 mx-4 cursor-pointer">
             <svg width="30" height="30" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 1C1.44772 1 1 1.44772 1 2V13C1 13.5523 1.44772 14 2 14H13C13.5523 14 14 13.5523 14 13V2C14 1.44772 13.5523 1 13 1H2ZM3.05 6H4.95V12H3.05V6ZM5.075 4.005C5.075 4.59871 4.59371 5.08 4 5.08C3.4063 5.08 2.925 4.59871 2.925 4.005C2.925 3.41129 3.4063 2.93 4 2.93C4.59371 2.93 5.075 3.41129 5.075 4.005ZM12 8.35713C12 6.55208 10.8334 5.85033 9.67449 5.85033C9.29502 5.83163 8.91721 5.91119 8.57874 6.08107C8.32172 6.21007 8.05265 6.50523 7.84516 7.01853H7.79179V6.00044H6V12.0047H7.90616V8.8112C7.8786 8.48413 7.98327 8.06142 8.19741 7.80987C8.41156 7.55832 8.71789 7.49825 8.95015 7.46774H9.02258C9.62874 7.46774 10.0786 7.84301 10.0786 8.78868V12.0047H11.9847L12 8.35713Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
         </div>
